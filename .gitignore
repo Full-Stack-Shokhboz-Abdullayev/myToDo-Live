@@ -1,0 +1,20 @@
+./todonew/node_modules
+./todonew/.pnp
+./todonew/.pnp.js
+
+# testing
+./todonew/coverage
+
+# production
+./todonew/build
+
+# misc
+./todonew/.DS_Store
+./todonew/.env.local
+./todonew/.env.development.local
+./todonew/.env.test.local
+./todonew/.env.production.local
+
+./todonew/npm-debug.log*
+./todonew/yarn-debug.log*
+./todonew/yarn-error.log*

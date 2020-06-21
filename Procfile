@@ -1,0 +1,1 @@
+web: gunicorn dayOrganizer.wsgi --log-file-

@@ -91,7 +91,11 @@ export default class App extends Component {
 			return Items;
 		}
 		return Items.filter((item) => {
-			return item.label.toLowerCase().indexOf(keyWord.toLowerCase()) > -1;
+			return (
+				item.label.toLowerCase().indexOf(keyWord.toLowerCase()) > -1 
+				||
+				item.time.indexOf(keyWord) > -1
+			);
 		});
 	}
 

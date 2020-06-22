@@ -1,15 +1,14 @@
 .btn-info {
 	background-color: rgb(20, 38, 71) !important;
 	transition: all ease 0.3s;
+	box-shadow: none !important;
 }
 .btn-info:focus {
 	background-color: rgba(70, 23, 77, 0.616) !important;
-	border: rgb(175, 67, 192) 1px solid;
-	box-shadow: none;
+	border: rgb(175, 67, 192) 1px solid !important;
+	box-shadow: none !important;
 }
-li span {
-    font-size: calc(16px + .45vw);
-}
+
 li button {
     height: 32px;
     width: calc(2vw + 12px);

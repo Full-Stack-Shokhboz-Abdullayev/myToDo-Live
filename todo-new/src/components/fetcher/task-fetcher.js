@@ -19,7 +19,7 @@ export class CSRF {
 }
 
 export default class FetcherTasks {
-	_apiBase = "https://shokhboz-to-do-app.herokuapp.com/api";
+	_apiBase = "/api";
 
 	async fetchAllTasks() {
 		const tasksUrl = await fetch(`${this._apiBase}/all-tasks/`);

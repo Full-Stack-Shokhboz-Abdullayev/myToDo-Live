@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '^ix(51u(!lots&@(%z6rf!odb0j9sl_%tkj@o7zch2$lnkib3s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['shokhboz-to-do-app.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['shokhboz-to-do-app.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -125,12 +125,14 @@ USE_TZ = True
 STATIC_ROOT = os.path.join('BASE_DIR', 'staticfiles')
 
 STATIC_URL = '/static/'
-CORS_ORIGIN_ALLOW_ALL = True
+# CORS_ORIGIN_ALLOW_ALL = True
 
-# CORS_ORIGIN_WHITELIST = [
-#     'http://localhost:3000',
-#     'http://localhost:5500',
-# ]
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:3000',
+    'http://localhost:5500',
+    'http://localhost:8000',
+    'https://shokhboz-to-do-app.herokuapp.com'
+]
 
 
 STATICFILES_DIRS = [

@@ -1,6 +1,5 @@
 {
   "name": "todo-new",
-  "proxy": "https://shokhboz-to-do-app.herokuapp.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

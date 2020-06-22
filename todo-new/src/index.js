@@ -6,10 +6,13 @@ import CustomInput from "./components/search-panel/search-panel";
 import "./css/index.css";
 import "./css/main.css";
 import "./css/bootstrap.min.css";
-
+import fav from "./favicon.ico";
 import "./img/fontawesome/css/all.css";
 import FetchTasks from "./components/fetcher/task-fetcher";
 import Edit from "./components/forEdit/forEdit";
+
+document.getElementById("icon").href = fav;
+
 export default class App extends Component {
 	maxId = 100;
 

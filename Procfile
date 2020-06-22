@@ -1,1 +1,1 @@
-web: gunicorn dayOrganizer.wsgi --log-file-
+web: gunicorn dayOrganizer.wsgi --log-file -

@@ -1,0 +1,59 @@
+.todo-list-item {
+	font-size: 1.25rem;
+	word-wrap: break-word;
+}
+.list-group-item {
+	transition: all 0.4s ease;
+	background: linear-gradient(
+		to right,
+		rgb(65, 37, 56),
+		rgb(18, 31, 75) 50%,
+		rgb(27, 14, 42) 50%
+	);
+	background-size: 200% 100%;
+	background-position: right bottom;
+}
+
+.list-group-item:hover {
+	transform: translateX(10px);
+	/* background: linear-gradient(to right, ; */
+	border-radius: 10px;
+	background-position: left bottom;
+}
+
+.todo-list-item button {
+	width: 35px;
+	margin: 3px;
+}
+
+.todo-list-item-label {
+	transition: all 0.3s ease;
+	color: aliceblue;
+	margin-left: 1vw;
+	line-height: 35px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.important {
+	font-weight: bold;
+	color: steelblue;
+}
+
+.done {
+	text-decoration: 3px line-through rgb(53, 2, 36);
+}
+.time {
+	color: aliceblue;
+	border-bottom: rgb(8, 98, 78) 2px double;
+	margin-left: .1vh;
+	transition: all 0.3s ease;
+}
+@media (max-width: 544px) {
+	.list-group-item:hover {
+		transform: translateX(0px);
+		/* background: linear-gradient(to right, ; */
+		border-radius: 10px;
+		background-position: left bottom;
+	}
+}

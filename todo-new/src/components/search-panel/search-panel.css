@@ -1,0 +1,12 @@
+.search-input {
+  width: auto;
+  flex-grow: 1;
+  margin-right: 1px;
+  background-color: rgba(109, 46, 46, 0.246) !important;
+  color: aliceblue !important;
+  transition: all 0.3s ease !important;
+}
+.search-input:focus {
+    color: aliceblue;
+    background-color: rgba(144, 55, 107, 0.418) !important;
+}

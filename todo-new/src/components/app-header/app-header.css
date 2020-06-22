@@ -1,0 +1,18 @@
+.app-header {
+  align-items: flex-end;
+}
+
+.app-header h1 {
+  color: aliceblue;
+  flex-grow: 1;
+}
+
+.app-header h2 {
+
+  margin-right: 10px;
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+.centralize {
+    text-align: center;
+}

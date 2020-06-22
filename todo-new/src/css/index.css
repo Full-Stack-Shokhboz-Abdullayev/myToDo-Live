@@ -1,0 +1,72 @@
+.todo-app {
+	margin: auto;
+	border-radius: 7px;
+	background: linear-gradient(to top, rgb(6, 33, 54), rgb(61, 16, 39));
+	height: 100%;
+	box-shadow: 0 24px 48px rgba(0, 0, 0, 0.25),
+		10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+.myContainer {
+	width: 100%;
+
+}
+.top-panel {
+	margin: 1rem 0;
+}
+
+@media screen and (min-width: 982px) {
+	.todo-app {
+		width: 50%;
+	}
+}
+@media (max-width: 1000px) {
+	.todo-app {
+		width: 60%;
+	}
+	
+}
+@media (max-width: 824px) {
+	.todo-app {
+		width: 70%;
+	}
+}
+@media (max-width: 708px) {
+	.todo-app {
+		width: 80%;
+	}
+}
+@media (max-width: 614px) {
+	.todo-app {
+		width: 90%;
+	}
+	.list-group-item:hover {
+		transform: translateX(0px);
+		/* background: linear-gradient(to right, ; */
+		border-radius: 10px;
+		background-position: left bottom;
+	}
+}
+@media (max-width: 544px) {
+	.media,
+	.g {
+		width: 100% !important;
+	}
+	.todo-app {
+		width: 100%;
+	}
+	.myBtn {
+		width: 26%;
+	}
+	.my-flex {
+		display: flex;
+		flex-direction: column;
+		/* justify-content: center; */
+		align-items: center;
+	}
+	.list-group-item:hover {
+		transform: translateX(0px);
+		/* background: linear-gradient(to right, ; */
+		border-radius: 10px;
+		background-position: left bottom;
+	}
+}

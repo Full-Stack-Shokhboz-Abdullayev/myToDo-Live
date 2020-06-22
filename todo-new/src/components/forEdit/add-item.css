@@ -1,0 +1,37 @@
+.hey.btn-group .search-input {
+  width: 60% !important;
+  flex-grow: 1;
+  margin-right: 1px;
+  background-color: rgba(109, 99, 46, 0.246);
+  color: aliceblue;
+  transition: all 0.3s ease;
+}
+.hey.btn-group .search-input:focus {
+    color: aliceblue;
+    background-color: rgba(158, 18, 163, 0.418);
+}
+.hey.btn-group .search-input:focus ~ button.btn.custom,
+.hey.btn-group .search-input-time:focus
+ ~ button.btn.custom{
+    background-color: rgb(84, 64, 235) !important;
+}
+.hey.btn-group {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.custom {
+    background-color: rgb(125, 79, 233);
+    color: aliceblue;
+}
+
+.search-input-time {
+    margin-right: 2px;
+    width: 100px;
+    background-color: rgb(22, 36, 42);
+    color: aliceblue;
+}
+.search-input-time:focus {
+    background-color: rgba(21, 58, 15, 0.472);
+    color: aliceblue;
+}

@@ -1,4 +1,4 @@
 # myToDo-Live
-To Do App using React.js and DRF.
+To Do App using React.js and Django Rest Framework.
 
-link to hosted app: https://shokhboz-to-do-app.herokuapp.com/
+Link to hosted app: https://shokhboz-to-do-app.herokuapp.com/
